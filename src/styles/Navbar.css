@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    background-color: #121212;
+    background-color: #212529;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #E0E1DD;
+}
+
+.nav-link.active {
+    color: lch(71.37% 21.23 267.44);
+    color: rgb(168, 199, 250);
+}
+
+.nav-link:hover {
+    color: white;
+}

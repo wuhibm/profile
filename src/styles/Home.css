@@ -1,0 +1,31 @@
+.main-content {
+    flex-grow: 1;
+    /* background-color: #212529; */
+    background-color: #121212;
+    padding: 1em;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-link {
+    color: inherit;
+}
+
+.profile-photo {
+    width: 15em;
+    border-radius: 100%;
+}
+
+.profile-card {
+    border: #284b63 solid 1px;
+    box-shadow: rgb(125, 125, 125) 0.2em 0.2em 0.2em;
+    background-color: #222222;
+    padding: 2em;
+    border-radius: 1em;
+    width: 60%;
+    margin: 5em auto 0;
+}
