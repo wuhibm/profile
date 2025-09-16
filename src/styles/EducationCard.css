@@ -12,10 +12,6 @@
     width: 15em;
 }
 
-.education-skills {
-    list-style: none;
-    display: flex;
-}
 
 .education-title {
     font-size: 2.5em;
@@ -24,4 +20,31 @@
 
 .education-degree {
     font-style: italic;
+}
+
+.education-coursework {
+    list-style: none;
+    display: flex;
+}
+
+.education-course {
+    background-color: #a8c7fa;
+    font-size: 0.85em;
+    color: #222222;
+    padding: 0.7em;
+    border-radius: 2em;
+    margin: 0 1.5em;
+}
+
+.coursework-display {
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+}
+
+.education-body {
+    line-height: 1.7em;
+    letter-spacing: 0.09em;
+    width: 70%;
+    margin: 1em auto;
 }
