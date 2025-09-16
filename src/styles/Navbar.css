@@ -20,4 +20,5 @@
 .nav-link:hover {
     color: white;
     text-shadow: black 0.1em 0.1em 0.1em;
+    border-bottom: #a8c7fa solid 0.05em;
 }
