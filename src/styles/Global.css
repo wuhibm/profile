@@ -18,3 +18,10 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.main-content {
+    flex-grow: 1;
+    background-color: #121212;
+    padding: 1em;
+    text-align: center;
+}
