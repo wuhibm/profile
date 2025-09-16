@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     background-color: #121212;
-    background-color: #212529;
+    background-color: #222222;
     justify-content: space-around;
     padding: 1em;
 }
@@ -18,4 +18,5 @@
 
 .nav-link:hover {
     color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
 }
