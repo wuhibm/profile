@@ -9,10 +9,17 @@
 .socials {
     display: flex;
     justify-content: space-around;
+    margin: 2em 0;
 }
 
 .social-link {
     color: inherit;
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    color: rgb(168, 199, 250);
+    transition: 0.3s;
 }
 
 .profile-photo {
@@ -27,5 +34,14 @@
     padding: 2em;
     border-radius: 1em;
     width: 60%;
-    margin: 5em auto 0;
+    margin: 0 auto;
+}
+
+.profile-text {
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+}
+
+.profile-title {
+    font-size: 3em;
 }
