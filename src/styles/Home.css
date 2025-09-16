@@ -20,13 +20,20 @@
 }
 
 .profile-card {
+    transition: 0.3s;
     border: #284b63 solid 1px;
-    box-shadow: rgb(125, 125, 125) 0.2em 0.2em 0.2em;
+    box-shadow: rgb(125, 125, 125) 0.1em 0.1em 0.1em;
     background-color: #222222;
     padding: 2em;
     border-radius: 1em;
     width: 60%;
     margin: 0 auto;
+}
+
+.profile-card:hover {
+    transition: 0.3s;
+    background-color: #1d1d1d;
+    box-shadow: rgb(125, 125, 125) 0.25em 0.25em 0.25em;
 }
 
 .profile-text {
