@@ -18,7 +18,7 @@ export default function Education() {
         <Navbar active="education" />
         <main className="main-content">
             <EducationCard gpa="9.4 / 10" title="University of Ottawa" degree="B.Sc. Hons. Computer Science" src={uoPath} alt="University of Ottawa Logo" coursework={uoCourses}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut arcu neque, auctor ut vestibulum non, consequat eget lectus. Morbi sit amet scelerisque lacus. Etiam a est quis mauris condimentum facilisis. Aenean lacus nibh, sagittis id nibh vel, ornare viverra ipsum. Proin rutrum lacus at mi mattis, id ullamcorper odio finibus.
+                BBOMBACLAAAAAAAAAAAAAAAAAAAT Ut arcu neque, auctor ut vestibulum non, consequat eget lectus. Morbi sit amet scelerisque lacus. Etiam a est quis mauris condimentum facilisis. Aenean lacus nibh, sagittis id nibh vel, ornare viverra ipsum. Proin rutrum lacus at mi mattis, id ullamcorper odio finibus.
 
             </EducationCard>
             <EducationCard gpa="95%" title="Ashbury College" degree="Ontario Secondary School Diploma" src={ashburyPath} alt="Ashbury College Logo" coursework={ashburyCourses}>

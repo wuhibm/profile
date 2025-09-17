@@ -1,0 +1,20 @@
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list-item {
+    background-color: #a8c7fa;
+    font-size: 0.85em;
+    color: #222222;
+    padding: 0.7em;
+    border-radius: 2em;
+    margin: 0 1.5em;
+}
+
+.list-display {
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    justify-content: center;
+}

@@ -20,5 +20,6 @@
 .nav-link:hover {
     color: white;
     text-shadow: black 0.1em 0.1em 0.1em;
-    border-bottom: #a8c7fa solid 0.05em;
+    border-bottom: rgb(187, 211, 249) solid 0.05em;
+    margin-bottom: 0.15em;
 }
