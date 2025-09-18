@@ -1,11 +1,42 @@
 import Navbar from "../components/Navbar"
 import "../styles/Home.css"
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaHtml5, FaCss3, FaJs, FaReact, FaJava, FaPython, FaSwift } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+import Skill from "../components/Skill";
+
 
 
 
 export default function Home() {
+
+    const skills = [{
+        icon: <FaHtml5 />,
+        body: "HTML"
+    },
+    {
+        icon: <FaCss3 />,
+        body: "CSS"
+    }, {
+        icon: <FaJs />,
+        body: "JavaScript"
+    }, {
+        icon: <FaReact />,
+        body: "React"
+    }, {
+        icon: <FaJava />,
+        body: "Java"
+    }, {
+        icon: <FaPython />,
+        body: "Python"
+    }, {
+        icon: <FaSwift />,
+        body: "Swift"
+    }, {
+        icon: <SiDjango />,
+        body: "Django"
+    },
+    ]
+
     return (
         <>
             <Navbar active="home" />
@@ -20,8 +51,11 @@ export default function Home() {
                 <section className="profile-card">
                     <img className="profile-photo" src="src/assets/1736829147488.jpeg" alt="Profile Photo" />
                     <p className="profile-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec laoreet sapien, nec ultrices mauris. Aliquam posuere purus ut sem feugiat, facilisis fermentum est vulputate. Curabitur aliquam dolor in dolor feugiat iaculis. Fusce dignissim ultrices massa a fringilla. Phasellus efficitur, lectus sed congue dictum, augue mauris fringilla elit, eget condimentum ex turpis ac libero. Sed scelerisque euismod mi et ornare. Aliquam mi purus, euismod quis consequat ac, auctor ut purus. Duis venenatis molestie ipsum, sit amet consequat libero sagittis et. Nullam rutrum viverra purus ut rhoncus. Mauris nec massa congue ante consectetur molestie non nec dolor. Donec libero turpis, eleifend.
-                    </p>
+                        I am a third-year Computer Science student at the University of Ottawa. I am a passionate software developer particularly interested in web and mobile development. I enjoy creating responsive, well designed, accessible, and innovative applications that challenge me. I am committed to lifelong learning, which is what drove me to pursue Computer Science, a rapidly evolving field that allows me to consistently grow my skills.                     </p>
+                </section>
+                <h2>Skills:</h2>
+                <section className="skills">
+                    {skills.map(skill => <Skill key={skill.body} icon={skill.icon}>{skill.body}</Skill>)}
                 </section>
             </main>
         </>

@@ -44,3 +44,10 @@
 .profile-title {
     font-size: 3em;
 }
+
+.skills {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}

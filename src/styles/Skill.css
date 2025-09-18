@@ -1,0 +1,8 @@
+.skill {
+    background-color: #284b63;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    border-radius: 0.4em;
+}
