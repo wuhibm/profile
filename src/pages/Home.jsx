@@ -3,6 +3,7 @@ import "../styles/Home.css"
 import { FaGithub, FaLinkedin, FaHtml5, FaCss3, FaJs, FaReact, FaJava, FaPython, FaSwift } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
 import Skill from "../components/Skill";
+import pfp from "../assets/1736829147488.jpeg"
 
 
 
@@ -49,7 +50,7 @@ export default function Home() {
                     <a className="social-link" href="https://www.linkedin.com/in/wuhib-mezemir/" target="__blank" ><FaLinkedin title="LinkedIn Logo" size="2em" /></a>
                 </section>
                 <section className="profile-card">
-                    <img className="profile-photo" src="src/assets/1736829147488.jpeg" alt="Profile Photo" />
+                    <img className="profile-photo" src={pfp} alt="Profile Photo" />
                     <p className="profile-text">
                         I am a third-year Computer Science student at the University of Ottawa. I am a passionate software developer particularly interested in web and mobile development. I enjoy creating responsive, well designed, accessible, and innovative applications that challenge me. I am committed to lifelong learning, which is what drove me to pursue Computer Science, a rapidly evolving field that allows me to consistently grow my skills.                     </p>
                 </section>

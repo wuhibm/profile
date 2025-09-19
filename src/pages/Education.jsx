@@ -1,17 +1,14 @@
 import Navbar from "../components/Navbar"
 import EducationCard from "../components/EducationCard"
+import uoPath from "../assets/university-of-ottawa-vector-logo.svg"
+import ashburyPath from "../assets/logo.png"
+import harvardXPath from "../assets/harvardX.png"
+import scrimbaPath from "../assets/KY1XZp9o_400x400.jpg"
 
 export default function Education() {
 
-    const uoPath = "src/assets/university-of-ottawa-vector-logo.svg"
     const uoCourses = ["Algorithms and Data Structures", "Programming Paradigms", "Discrete Structures", "Databases"]
-
-    const ashburyPath = "src/assets/logo.png"
     const ashburyCourses = ["Intro to Computer Science", "Computer Science"]
-
-    const harvardXPath = "src/assets/harvardX.png"
-
-    const scrimbaPath = "src/assets/KY1XZp9o_400x400.jpg"
     const scrimbaCourses = ["HTML & CSS", "UI Design", "React", "Advanced React"]
 
     const educations = [
