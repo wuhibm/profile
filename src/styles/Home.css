@@ -28,6 +28,10 @@
     border-radius: 1em;
     width: 60%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
 
 .profile-card:hover {
@@ -49,6 +53,6 @@
     width: 60%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
 }
