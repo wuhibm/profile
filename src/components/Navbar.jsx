@@ -11,7 +11,7 @@ export default function Navbar(props) {
                 <NavLink to="/" className={clsx("nav-link", props.active === "home" && "active")}>Home</NavLink>
                 <NavLink to="/projects" className={clsx("nav-link", props.active === "projects" && "active")}>Projects</NavLink>
                 <NavLink to="/education" className={clsx("nav-link", props.active === "education" && "active")}>Education</NavLink>
-                <a href="src/assets/Resume.pdf" className={clsx("nav-link", props.active === "resume" && "active")} download={true}> <FaDownload /> Resume</a>
+                <a href="src/assets/Resume.pdf" className={clsx("nav-link", props.active === "resume" && "active")} download={true}> <FaDownload title='Download Icon' /> Resume</a>
             </nav>
         </header>)
 }

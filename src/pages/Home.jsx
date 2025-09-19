@@ -10,29 +10,29 @@ import Skill from "../components/Skill";
 export default function Home() {
 
     const skills = [{
-        icon: <FaHtml5 />,
+        icon: <FaHtml5 title="HTMl Logo" />,
         body: "HTML"
     },
     {
-        icon: <FaCss3 />,
+        icon: <FaCss3 title="CSS logo" />,
         body: "CSS"
     }, {
-        icon: <FaJs />,
+        icon: <FaJs title="JavaScript logo" />,
         body: "JavaScript"
     }, {
-        icon: <FaReact />,
+        icon: <FaReact title="React logo" />,
         body: "React"
     }, {
-        icon: <FaJava />,
+        icon: <FaJava title="Java logo" />,
         body: "Java"
     }, {
-        icon: <FaPython />,
+        icon: <FaPython title="Python logo" />,
         body: "Python"
     }, {
-        icon: <FaSwift />,
+        icon: <FaSwift title="Swift logo" />,
         body: "Swift"
     }, {
-        icon: <SiDjango />,
+        icon: <SiDjango title="Django logo" />,
         body: "Django"
     },
     ]
@@ -45,8 +45,8 @@ export default function Home() {
                     <h1 className="profile-title">Hi! I'm Wuhib</h1>
                 </section>
                 <section className="socials">
-                    <a className="social-link" href="https://github.com/wuhibm" target="__blank" ><FaGithub size="2em" /></a>
-                    <a className="social-link" href="https://www.linkedin.com/in/wuhib-mezemir/" target="__blank" ><FaLinkedin size="2em" /></a>
+                    <a className="social-link" href="https://github.com/wuhibm" target="__blank" ><FaGithub title="GitHub Logo" size="2em" /></a>
+                    <a className="social-link" href="https://www.linkedin.com/in/wuhib-mezemir/" target="__blank" ><FaLinkedin title="LinkedIn Logo" size="2em" /></a>
                 </section>
                 <section className="profile-card">
                     <img className="profile-photo" src="src/assets/1736829147488.jpeg" alt="Profile Photo" />

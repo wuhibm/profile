@@ -3,6 +3,11 @@
     display: flex;
 }
 
+.list-title {
+    font-weight: bold;
+    font-style: oblique;
+}
+
 .list-item {
     background-color: #a8c7fa;
     font-size: 0.85em;
@@ -17,4 +22,35 @@
     align-items: center;
     overflow: scroll;
     justify-content: center;
+}
+
+@media (max-width: 1410px) {
+    .list-display {
+        display: block;
+    }
+
+    .list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1185px) {
+    .list-display {
+        display: block;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list-item {
+        background-color: #a8c7fa;
+        font-size: 0.85em;
+        color: #222222;
+        padding: 0.7em;
+        border-radius: 2em;
+        margin: 0.5em auto;
+        max-width: fit-content;
+    }
 }
