@@ -1,4 +1,3 @@
-import clsx from 'clsx';
 import "../styles/Navbar.css"
 import { NavLink } from "react-router";
 import { FaDownload } from "react-icons/fa";
@@ -8,10 +7,10 @@ export default function Navbar(props) {
     return (
         <header>
             <nav className='navbar'>
-                <NavLink to="/" className={clsx("nav-link", props.active === "home" && "active")}>Home</NavLink>
-                <NavLink to="/projects" className={clsx("nav-link", props.active === "projects" && "active")}>Projects</NavLink>
-                <NavLink to="/education" className={clsx("nav-link", props.active === "education" && "active")}>Education</NavLink>
-                <a href="src/assets/Resume.pdf" className={clsx("nav-link", props.active === "resume" && "active")} download={true}> <FaDownload title='Download Icon' /> Resume</a>
+                <NavLink to="/" className={props.active === "home" ? "active" : "nav-link"}>Home</NavLink>
+                <NavLink to="/projects" className={props.active === "projects" ? "active" : "nav-link"}>Projects</NavLink>
+                <NavLink to="/education" className={props.active === "education" ? "active" : "nav-link"}>Education</NavLink>
+                <a href="src/assets/Resume.pdf" className="nav-link" download={true}> <FaDownload title='Download Icon' /> Resume</a>
             </nav>
         </header>)
 }

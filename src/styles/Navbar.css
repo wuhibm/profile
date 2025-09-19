@@ -11,10 +11,15 @@
     color: #E0E1DD;
 }
 
-.nav-link.active {
-    color: lch(71.37% 21.23 267.44);
+.active {
+    text-decoration: none;
     color: #a8c7fa;
     border-bottom: #a8c7fa solid 0.2em;
+}
+
+.active:hover {
+    color: #c4d8f9;
+    border-bottom: #c4d8f9 solid 0.2em;
 }
 
 .nav-link:hover {
