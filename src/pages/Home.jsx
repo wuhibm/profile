@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import "../styles/Home.css"
-import { FaGithub, FaLinkedin, FaHtml5, FaCss3, FaJs, FaReact, FaJava, FaPython, FaSwift, FaGolang } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaHtml5, FaCss3, FaJs, FaReact, FaJava, FaPython, FaSwift } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 import { SiDjango } from "react-icons/si";
 import Skill from "../components/Skill";
 import pfp from "../assets/1736829147488.jpeg"
