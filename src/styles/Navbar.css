@@ -11,6 +11,12 @@
     color: #E0E1DD;
 }
 
+.nav-link:hover {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    border-bottom: rgb(187, 211, 249) solid 0.05em;
+}
+
 .active {
     text-decoration: none;
     color: #a8c7fa;
@@ -20,11 +26,4 @@
 .active:hover {
     color: #c4d8f9;
     border-bottom: #c4d8f9 solid 0.2em;
-}
-
-.nav-link:hover {
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.1em;
-    border-bottom: rgb(187, 211, 249) solid 0.05em;
-    margin-bottom: 0.15em;
 }
