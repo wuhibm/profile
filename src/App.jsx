@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router'
+import { Analytics } from "@vercel/analytics/react"
 import Education from './pages/Education'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <Analytics />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/education' element={<Education />} />
