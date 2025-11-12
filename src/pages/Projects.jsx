@@ -1,13 +1,15 @@
 import Navbar from "../components/Navbar";
 import ProjectCard from "../components/ProjectCard";
+import { ImNewTab } from "react-icons/im";
+
 
 export default function Projects() {
 
     const projects = [{
-        title: "JamJournal",
+        title: <a href="http://jamjournal.net" target="_blank" rel="noopener noreferrer">JamJournal <ImNewTab title="Open in new tab" size="0.5em" /></a>,
         description: "Full stack web application",
         technologies: ["Python", "Django"],
-        body: "JamJournal is a full-stack web application that I developed using Django. It is a site for music reviews that uses the Spotify API to fetch music data such as the albums that are featured on the homepage and search results for albums or artists. It uses Django’s Object-Relational Modelling to store user information, their reviews, and interactions (e.g. commenting or following other users). Users can follow friends to see their reviews. I containerized this application using Docker, along with a Postgresql database and an Nginx server for static files. This allowed smooth deployment using docker compose. By making this project I strengthened my web development skills and became comfortable with using Django and Docker. I then deployed this application on AWS EC2 using an Ubuntu server and it is live at http://jamjournal.net."
+        body: "JamJournal is a full-stack web application that I developed using Django. It is a site for music reviews that uses the Spotify API to fetch music data such as the albums that are featured on the homepage and search results for albums or artists. It uses Django’s Object-Relational Modelling to store user information, their reviews, and interactions (e.g. commenting or following other users). Users can follow friends to see their reviews. I containerized this application using Docker, along with a Postgresql database and an Nginx server for static files. This allowed smooth deployment using docker compose. By making this project I strengthened my web development skills and became comfortable with using Django and Docker. I then deployed this application on AWS EC2 using an Ubuntu server and it is live at jamjournal.net."
     }, {
         title: "Guess the Flag",
         description: "iOS Mobile application",
